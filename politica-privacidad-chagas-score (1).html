@@ -1,0 +1,266 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Política de Privacidad – Chagas Score</title>
+  <link href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,wght@0,300;0,400;0,600;1,300&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+  <style>
+    :root {
+      --blue: #1a3a6b;
+      --blue-mid: #2c5399;
+      --blue-light: #e8eef8;
+      --red: #c0392b;
+      --text: #2a2a2a;
+      --muted: #666;
+      --border: #d8e0ec;
+      --bg: #f7f9fd;
+    }
+
+    * { margin: 0; padding: 0; box-sizing: border-box; }
+
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.75;
+    }
+
+    header {
+      background: var(--blue);
+      padding: 48px 24px 40px;
+      text-align: center;
+      position: relative;
+      overflow: hidden;
+    }
+
+    header::before {
+      content: '';
+      position: absolute;
+      top: -60px; right: -60px;
+      width: 220px; height: 220px;
+      border-radius: 50%;
+      background: rgba(255,255,255,0.04);
+    }
+
+    header::after {
+      content: '';
+      position: absolute;
+      bottom: -40px; left: -40px;
+      width: 160px; height: 160px;
+      border-radius: 50%;
+      background: rgba(192,57,43,0.15);
+    }
+
+    .logo-area {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 14px;
+      margin-bottom: 16px;
+    }
+
+    .logo-icon {
+      width: 52px; height: 52px;
+      background: white;
+      border-radius: 14px;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 26px;
+      box-shadow: 0 4px 16px rgba(0,0,0,0.2);
+    }
+
+    header h1 {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 1.9em;
+      font-weight: 600;
+      color: white;
+      letter-spacing: -0.02em;
+    }
+
+    header p {
+      color: rgba(255,255,255,0.7);
+      font-size: 0.9em;
+      margin-top: 6px;
+      font-weight: 300;
+    }
+
+    .container {
+      max-width: 780px;
+      margin: 0 auto;
+      padding: 48px 24px 80px;
+    }
+
+    .meta-bar {
+      display: flex;
+      gap: 24px;
+      background: white;
+      border: 1px solid var(--border);
+      border-radius: 10px;
+      padding: 16px 20px;
+      margin-bottom: 40px;
+      font-size: 0.82em;
+      color: var(--muted);
+    }
+
+    .meta-bar span strong {
+      color: var(--blue);
+      font-weight: 500;
+    }
+
+    .highlight-box {
+      background: var(--blue-light);
+      border-left: 4px solid var(--blue-mid);
+      border-radius: 0 8px 8px 0;
+      padding: 18px 20px;
+      margin-bottom: 40px;
+      font-size: 0.95em;
+      color: var(--blue);
+    }
+
+    section {
+      margin-bottom: 36px;
+    }
+
+    h2 {
+      font-family: 'Source Serif 4', Georgia, serif;
+      font-size: 1.2em;
+      font-weight: 600;
+      color: var(--blue);
+      margin-bottom: 12px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    h2 .num {
+      background: var(--blue);
+      color: white;
+      width: 24px; height: 24px;
+      border-radius: 50%;
+      display: flex; align-items: center; justify-content: center;
+      font-size: 0.7em;
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 500;
+      flex-shrink: 0;
+    }
+
+    p { margin-bottom: 10px; font-size: 0.95em; color: #3a3a3a; }
+
+    .tag {
+      display: inline-block;
+      background: #e8f5e9;
+      color: #2e7d32;
+      font-size: 0.75em;
+      font-weight: 500;
+      padding: 2px 10px;
+      border-radius: 20px;
+      margin-left: 8px;
+      vertical-align: middle;
+    }
+
+    .disclaimer {
+      background: #fff8f0;
+      border: 1px solid #f0d9b5;
+      border-radius: 8px;
+      padding: 16px 20px;
+      font-size: 0.88em;
+      color: #7a5c00;
+      margin-top: 8px;
+    }
+
+    footer {
+      text-align: center;
+      padding: 32px 24px;
+      border-top: 1px solid var(--border);
+      font-size: 0.82em;
+      color: var(--muted);
+      background: white;
+    }
+
+    footer strong { color: var(--blue); }
+
+    @media (max-width: 600px) {
+      header h1 { font-size: 1.5em; }
+      .meta-bar { flex-direction: column; gap: 8px; }
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <div class="logo-area">
+    <div class="logo-icon">🫀</div>
+    <h1>Chagas Score</h1>
+  </div>
+  <p>Política de Privacidad</p>
+</header>
+
+<div class="container">
+
+  <div class="meta-bar">
+    <span><strong>Versión:</strong> 1.0</span>
+    <span><strong>Vigente desde:</strong> 30 de abril de 2026</span>
+    <span><strong>Desarrollador:</strong> División de Cardiología, Hospital Ramos Mejía</span>
+  </div>
+
+  <div class="highlight-box">
+    <strong>Resumen:</strong> Chagas Score no recopila, almacena ni transmite ningún dato personal. Todos los cálculos se realizan localmente en su dispositivo.
+  </div>
+
+  <section>
+    <h2><span class="num">1</span> Información general</h2>
+    <p>Esta política de privacidad describe cómo la aplicación <strong>Chagas Score</strong> maneja la información de sus usuarios. La app ha sido desarrollada por la División de Cardiología del Hospital General de Agudos José María Ramos Mejía, Ciudad Autónoma de Buenos Aires, Argentina.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">2</span> Recopilación de datos <span class="tag">No aplica</span></h2>
+    <p>Chagas Score <strong>no recopila ningún tipo de dato personal</strong> de sus usuarios. La aplicación no solicita ni almacena:</p>
+    <p>— Nombre, correo electrónico u otros datos de identificación personal.<br>
+    — Información de salud o datos clínicos de los pacientes.<br>
+    — Datos de ubicación, cámara ni micrófono.<br>
+    — Información de uso, estadísticas ni analíticas.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">3</span> Procesamiento local</h2>
+    <p>Todos los cálculos de riesgo realizados mediante la aplicación se procesan <strong>exclusivamente en el dispositivo del usuario</strong>. Ningún dato introducido en la app es enviado a servidores externos ni a terceros.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">4</span> Servicios de terceros</h2>
+    <p>Chagas Score no integra servicios de análisis de datos, redes publicitarias, SDKs de terceros ni ningún otro servicio externo que pudiera recopilar información del usuario.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">5</span> Uso clínico y aviso médico</h2>
+    <div class="disclaimer">
+      ⚠️ Chagas Score es una herramienta de apoyo clínico destinada a profesionales de la salud. No reemplaza el juicio médico ni constituye un diagnóstico. Los resultados deben interpretarse en el contexto clínico completo de cada paciente.
+    </div>
+  </section>
+
+  <section>
+    <h2><span class="num">6</span> Menores de edad</h2>
+    <p>La aplicación está dirigida exclusivamente a profesionales médicos adultos. No está destinada al uso por menores de edad ni recopila información de menores.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">7</span> Cambios en esta política</h2>
+    <p>Cualquier actualización a esta política de privacidad será publicada en esta página con una nueva fecha de vigencia. Se recomienda revisar esta política periódicamente.</p>
+  </section>
+
+  <section>
+    <h2><span class="num">8</span> Contacto</h2>
+    <p>Para consultas relacionadas con esta política de privacidad, puede comunicarse a través del sitio web oficial: <strong>https://argen-chag.com</strong></p>
+  </section>
+
+</div>
+
+<footer>
+  <p>© 2026 <strong>División de Cardiología – Hospital General de Agudos José María Ramos Mejía</strong></p>
+  <p style="margin-top:6px">Buenos Aires, Argentina · Chagas Score v1.0</p>
+</footer>
+
+</body>
+</html>
